@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Telugu', 'Gautami', 'Vani', 'Mandali', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, .font-cinema {
+    font-family: 'Cinzel', 'Noto Sans Telugu', serif;
+  }
+
+  .font-telugu {
+    font-family: 'Noto Sans Telugu', 'Plus Jakarta Sans', 'Gautami', 'Vani', sans-serif;
+  }
+}
+
+/* Custom Cinema Glass and Gold Accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 50%, #D97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-image: linear-gradient(to right, #F59E0B, #B45309) 1;
+}
+
+/* Custom scrollbar for cinema feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+}

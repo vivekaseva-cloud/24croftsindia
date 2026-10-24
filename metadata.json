@@ -1,0 +1,8 @@
+{
+  "name": "24crofts.com - Cinema 24 Crafts Matrimonial & Talent Platform",
+  "description": "Premier matchmaking and verified talent discovery platform for the 24 Crafts of Cinema. Secure contact verification for Production Houses, talent profiles, movie teasers, and industry advertisements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
